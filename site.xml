@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Mylyn Gitea Connector" url="https://forge.chapril.org/gitea/mylyn-gitea/io.gitea.mylyn.updatesite">
+      
+   </description>
+   <feature url="features/io.gitea.mylyn_0.1.0.jar" id="io.gitea.mylyn" version="0.1.0">
+      <category name="org.eclipse.mylyn"/>
+   </feature>
+   <category-def name="org.eclipse.mylyn" label="Mylyn Connectors">
+      <description>
+         Available Mylyn Connectors
+      </description>
+   </category-def>
+</site>
