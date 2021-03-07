@@ -2,6 +2,12 @@
 
 This is the update site for the *Mylyn/Gitea Tasks Connector* (https://forge.chapril.org/gitea/mylyn-gitea/ ).
 
+## Copyrights and License
+
+(c) 2021 F.Terrot
+
+The *Mylyn/Gitea Tasks Connector* is provided under the MIT License you may find a copy here https://teilginn.github.io/mylyn-gitea-updatesite/LICENSE
+
 ## Usage
 
 1. Install the plug-in obviously (you can use the https://teilginn.github.io/mylyn-gitea-updatesite/ as update site)
