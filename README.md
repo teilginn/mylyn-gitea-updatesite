@@ -4,7 +4,7 @@ This is the update site for the Mylyn/Gitea Tasks Connector (https://forge.chapr
 
 ## Usage
 
-1. Install the plugin obviously (you can use the  update site)
+1. Install the plugin obviously (you can use the https://teilginn.github.io/mylyn-gitea-updatesite/ update site)
 2. Add a new Tasks Repository, using the new *Mylyn/Gitea Tasks Connector*
   1. Enter the project URL (something like `http(s)://my-gitea-instance.org/myname_or_organisation/my_repository(.git)`) (the connector will disguard the `.git` if present)
   2. Enter the API key token you have created via your Gitea’s web interface: `Settings | Applications | Generate New Token`. It's also possible to use usename/password.
