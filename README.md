@@ -10,7 +10,7 @@ The *Mylyn/Gitea Tasks Connector* is provided under the MIT License you may find
 
 ## Usage
 
-1. Install the plug-in obviously (you can use the https://teilginn.github.io/mylyn-gitea-updatesite/ as update site)
+1. Install the plug-in obviously you can either the Eclipse market place https://marketplace.eclipse.org/content/mylyngitea-tasks-connector either use the https://teilginn.github.io/mylyn-gitea-updatesite/ as update site)
 2. Add a new Tasks Repository, using the new *Gitea Issues* repository type.
   1. Enter the project URL (something like `http(s)://my-gitea-instance.org/myname_or_organisation/my_repository(.git)`) (the connector will disguard the `.git` if present)
   2. Enter the API key token you have created via your Gitea’s web interface: `Settings | Applications | Generate New Token`. \
