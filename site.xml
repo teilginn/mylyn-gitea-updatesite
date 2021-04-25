@@ -3,7 +3,7 @@
    <description name="Mylyn Gitea Connector" url="https://forge.chapril.org/gitea/mylyn-gitea/io.gitea.mylyn.updatesite">
       
    </description>
-   <feature url="features/io.gitea.mylyn_0.2.0.jar" id="io.gitea.mylyn" version="0.2.0">
+   <feature url="features/io.gitea.mylyn_0.3.1.jar" id="io.gitea.mylyn" version="0.3.1">
       <category name="org.eclipse.mylyn"/>
    </feature>
    <category-def name="org.eclipse.mylyn" label="Mylyn Connectors">
