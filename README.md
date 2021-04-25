@@ -16,19 +16,22 @@ I want to thanks and credit:
 * `zeripath` for the [Java Gitea API](https://github.com/zeripath/java-gitea-api) I used first to communicate with Gitea's instance before facing ssl and JDK 11 compliance issues. 
 * Contributors to the [GitHub Mylyn Connector](https://github.com/eclipse/egit-github) which helps me to understand how I can make GUI of the plugin different.
 
-## Authentication
+## Release Signature & Authentication
 
-Starting with version 0.3.0, the *Mylyn/Gitea Tasks Connector* plugin will be signed with a self-signed certificate. 
-In addition to this _internal_ signature, a detached GPG signature is provided for all files associated with the release (including this README) in the `gpg/` directory,
-more over all commits in *Mylyn/Gitea Tasks Connector* related repositories are also now signed.
+Starting with version 0.3.0, the *Mylyn/Gitea Tasks Connector* plugin will be signed with a _Java_ self-signed certificate. 
 
-Self-signed certificate finger print: `E3:7E:0A:ED:28:70:36:3C:E3:B5:D4:F4:3C:FE:23:30:AF:52:5E:C6:1A:D5:86:15:87:FA:0B:92:D3:B0:C0:A1`
+In addition to the _internal_ signature, a detached GPG signature will be provided for all files associated with the release, including this README and the certificate public key, in the `gpg/` directory.
+More over all commits in *Mylyn/Gitea Tasks Connector* related repositories are also now *git-signed*.
 
-GPG key finger print: `F9B4 EC90 120D 8584 397F D876 2A76 6910 298F 3874`
+Self-signed certificate properties:
+* Finger print: `E3:7E:0A:ED:28:70:36:3C:E3:B5:D4:F4:3C:FE:23:30:AF:52:5E:C6:1A:D5:86:15:87:FA:0B:92:D3:B0:C0:A1`
+* Public key certificate file in PEM format (selfsigned.pem)[https://teilginn.github.io/mylyn-gitea-updatesite/selfsigned.pem) or DER format (selfsigned.der)[https://teilginn.github.io/mylyn-gitea-updatesite/selfsigned.der)
 
-If you want to verify the release in front of GPG, the public key file is available from *Mylyn/Gitea Tasks Connector Update Site [2A766910298F3874.asc](https://teilginn.github.io/mylyn-gitea-updatesite/2A766910298F3874.asc)
-or from the different Git repositories used to develop the plugin :
+GPG key properties:
+* finger print: `F9B4 EC90 120D 8584 397F D876 2A76 6910 298F 3874`
+* GPG public key file [2A766910298F3874.asc](https://teilginn.github.io/mylyn-gitea-updatesite/2A766910298F3874.asc)
 
+In addition to *Mylyn/Gitea Tasks Connector Update Site* GPG public key file is available from the different Git repositories used to develop the plugin :
 * Update Site sources [main repository](https://forge.chapril.org/gitea/mylyn-gitea-updatesite/src/commit/457a618b438b6a712221cfabae80aa799df83135/2A766910298F3874.asc) and [Github mirror](https://raw.githubusercontent.com/teilginn/mylyn-gitea-updatesite/master/2A766910298F3874.asc)
 * Plugin sources [main branch](https://forge.chapril.org/gitea/mylyn-gitea/src/commit/9322d65b8baae36f173163ac8a04852cf1fe07c4/2A766910298F3874.asc)
 
