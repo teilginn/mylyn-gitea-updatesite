@@ -22,7 +22,7 @@ Starting with version 0.3.0, the *Mylyn/Gitea Tasks Connector* plugin will be si
 In addition to this _internal_ signature, a detached GPG signature is provided for all files associated with the release (including this README) in the `gpg/` directory,
 more over all commits in *Mylyn/Gitea Tasks Connector* related repositories are also now signed.
 
-Self-signed certificate finger print: `E4:DE:51:E9:22:C9:2E:41:26:50:E8:C4:C8:5C:DF:E5:B1:04:36:D8:B8:46:E5:C9:C2:EF:06:9E:29:3C:55:01`
+Self-signed certificate finger print: `E3:7E:0A:ED:28:70:36:3C:E3:B5:D4:F4:3C:FE:23:30:AF:52:5E:C6:1A:D5:86:15:87:FA:0B:92:D3:B0:C0:A1`
 
 GPG key finger print: `F9B4 EC90 120D 8584 397F D876 2A76 6910 298F 3874`
 
